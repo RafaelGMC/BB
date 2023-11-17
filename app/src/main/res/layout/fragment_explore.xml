@@ -16,27 +16,30 @@
             android:layout_height="wrap_content"
             android:icon="@drawable/baseline_explore"
             android:text="Explore" />
+
         <com.google.android.material.tabs.TabItem
             android:id="@+id/idTAbFlight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:icon="@drawable/baseline_flight"
             android:text="Flight" />
+
         <com.google.android.material.tabs.TabItem
             android:id="@+id/idTabTrips"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:icon="@drawable/baseline_card_travel"
             android:text="Trips" />
+
     </com.google.android.material.tabs.TabLayout>
 
-<androidx.viewpager.widget.ViewPager
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/idViewPager"
-    android:layout_below="@+id/"
-    />
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/idViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/idTabLayout">
 
+    </androidx.viewpager.widget.ViewPager>
 
 
 </RelativeLayout>
